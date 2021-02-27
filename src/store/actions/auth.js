@@ -48,7 +48,7 @@ export const auth = (email, password, isSignup) => {
             password: password,
             returnSecureToken: true
         };
-        let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
+        let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
         if (!isSignup) {
             url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
         }
