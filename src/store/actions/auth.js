@@ -50,7 +50,7 @@ export const auth = (email, password, isSignup) => {
         };
         let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
         if (!isSignup) {
-            url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
+            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCN-DcAw1l-g1WPf69nTQN3MtViZLaIga0';
         }
         axios.post(url, authData)
             .then(response => {
