@@ -2,6 +2,8 @@
 
 * This project has the functionality to add ingredients and remove ingredients to burger.
 
+* The App is complete responsive.
+
 * The Burger App contians super cool css style which gives attractive UI.
 
 * The App contains Router functionality it makes the app super fast without refreshing the page.
