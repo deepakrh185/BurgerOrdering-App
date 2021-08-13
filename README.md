@@ -2,7 +2,7 @@
 
 * This project has the functionality to add ingredients and remove ingredients to burger.
 
-* The App is complete responsive.
+* The App is complete responsive for desktop and mobile version.
 
 * The Burger App contians super cool css style which gives attractive UI.
 
